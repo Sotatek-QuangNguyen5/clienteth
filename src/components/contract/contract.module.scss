@@ -1,0 +1,24 @@
+.contract {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+
+    .contract__address {
+
+        width: 650px;
+        margin-bottom: 20px;
+        .link {
+
+            color: rgb(9, 73, 250);
+            text-decoration: none;
+        }
+
+        .link:hover {
+
+            color: rgb(250, 9, 9);
+        }
+    }
+}

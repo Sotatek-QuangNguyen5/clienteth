@@ -1,0 +1,89 @@
+.method {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+    .method__call {
+
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+        .method__name {
+
+            width: 200px;
+            height: 30px;
+            border: 1px solid #355f7d;
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 5px;
+            background-color: #355f7d;
+            border-color: #355f7d;
+            margin-right: 30px;
+            color: white;
+        }
+    
+        .method__name:hover {
+    
+            background-color: rgb(65, 32, 92);
+        }
+    
+        .method__params {
+    
+            width: 400px;
+           
+            .method__param {
+    
+                width: 400px;
+                height: 30px;
+                margin-bottom: 20px;
+    
+                .method__input {
+    
+                    width: 400px;
+                    height: 30px;
+                    outline: none;
+                }
+            }
+        }
+    
+    
+        .payable {
+    
+            background-color: #b84040;
+            border-color: #b84040;
+        }
+    
+        .payable:hover {
+    
+            background-color: #882e2e;
+            border-color: #882e2e;
+        }
+    
+        .lost__money {
+    
+            background-color: #c97539;
+            border-color: #c97539;
+        }
+    
+        .lost__money:hover {
+    
+            background-color: #ad622c;
+            border-color: #ad622c;
+        }
+    }
+
+    .results {
+
+        width: 630px;
+
+        .result__field {
+
+            margin-bottom: 15px;
+            word-break: break-all;
+            width: 630px;
+        }
+    }
+}
+
